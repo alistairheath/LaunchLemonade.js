@@ -1,0 +1,19 @@
+{
+  "name": "launchlemonade",
+  "version": "1.0.0",
+  "description": "An unofficial LaunchLemonade API wrapper.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc && node dist/index.js"
+  },
+  "type":"module",
+  "author": "Alistair Heath",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.15.18",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "axios": "^1.9.0"
+  }
+}
