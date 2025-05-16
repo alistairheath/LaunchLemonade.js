@@ -6,7 +6,6 @@
   "scripts": {
     "test": "tsc && node dist/index.js"
   },
-  "type":"module",
   "author": "Alistair Heath",
   "license": "ISC",
   "devDependencies": {

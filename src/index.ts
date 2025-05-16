@@ -59,7 +59,7 @@ export class LaunchLemonade {
   }
 
   // Run an Assistant
-  async runAssistant(
+  public async runAssistant(
     input: string,
   ): Promise<LaunchLemonadeRun> {
     // Make a POST request to the API
@@ -77,7 +77,7 @@ export class LaunchLemonade {
   }
 
   // Get Response
-  async getResponse(
+  public async getResponse(
     responseID: string,
   ): Promise<LaunchLemonadeResponse>{
     // Check if the Response ID is provided
