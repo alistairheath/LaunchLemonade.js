@@ -19,7 +19,10 @@ Then in your Typescript or Javascript project, import the library and create an 
 
 ```typescript
 import { LaunchLemonade } from 'LaunchLemonade.js';
-const LaunchLemonade = new LaunchLemonade({ apiKey: "YOUR-API-KEY-HERE" });
+const LaunchLemonadeInstance: LaunchLemonade = await LaunchLemonade({
+    apiKey: "YOUR-API-KEY-HERE", // Don't expose this in public code.
+    assistantID: "YOUR-LEMONADE-ID"
+  });
 ```
 ⚠️ LaunchLemonade.js has been designed to use your private API keys and therefore should never be used in public-facing code. Use Node.js environment variables for added security.
 
